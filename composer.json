@@ -1,0 +1,31 @@
+{
+    "name": "everlution/rest-client",
+    "description": "A rest client",
+    "license": "Apache-2.0",
+    "keywords": [
+        "rest"
+    ],
+    "authors": [
+        {
+            "name": "Michael Caldera",
+            "email": "michcald@gmail.com",
+            "homepage": "http://michaelcaldera.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "symfony/http-foundation": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "squizlabs/php_codesniffer": "2.*",
+        "fabpot/php-cs-fixer": "2.0.*@dev",
+        "symfony/var-dumper": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Everlution\\RestClient\\": "src/"
+        }
+    }
+}
